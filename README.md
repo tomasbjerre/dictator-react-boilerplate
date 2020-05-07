@@ -19,7 +19,7 @@ You can let it dictate your source repository by adding it to `package.json` lik
     "prepare": "dictator-react-boilerplate"
   },
   "devDependencies": {
-    "haffaz": "a.b.c"
+    "dictator-react-boilerplate": "a.b.c"
   }
 }
 ```
