@@ -1,0 +1,9 @@
+{
+  "message": "Copy react-boilerplate",
+  "actions": [
+    {
+      "copyFrom": "react-boilerplate",
+      "target": "."
+    }
+  ]
+}

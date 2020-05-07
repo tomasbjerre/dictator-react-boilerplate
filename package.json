@@ -1,0 +1,25 @@
+{
+  "name": "dictator-react-boilerplate",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tomasbjerre/dictator-react-boilerplate",
+  "repository": "git@github.com:tomasbjerre/dictator-react-boilerplate.git",
+  "bin": {
+    "dictator-react-boilerplate": "./index.js"
+  },
+  "scripts": {
+    "run": "npm run build && npm i -g && dictator-react-boilerplate --dry-run",
+    "build": "npm run format",
+    "test": "npm run run",
+    "format": "npx prettier --write '{README.md,**/.dictatable-config.json}'",
+    "release": "npm version patch && npm run test && npm publish && git push --follow-tags"
+  },
+  "dependencies": {
+    "dictator-builder": "0.0.38"
+  },
+  "author": "Tomas Bjerre",
+  "keywords": [
+    "dictator",
+    "react-boilerplate"
+  ],
+  "license": "MIT"
+}
