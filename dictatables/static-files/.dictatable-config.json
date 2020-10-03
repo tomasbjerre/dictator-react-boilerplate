@@ -8,6 +8,10 @@
     {
       "copyFrom": "react-boilerplate",
       "target": "."
+    },
+    {
+      "haveLineContaining": ["package-lock.json"],
+      "target": ".gitignore"
     }
   ]
 }
