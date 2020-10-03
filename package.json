@@ -1,6 +1,6 @@
 {
   "name": "dictator-react-boilerplate",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://github.com/tomasbjerre/dictator-react-boilerplate",
   "repository": "git@github.com:tomasbjerre/dictator-react-boilerplate.git",
   "bin": {
