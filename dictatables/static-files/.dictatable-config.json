@@ -10,7 +10,7 @@
       "target": "."
     },
     {
-      "haveLineContaining": ["package-lock.json"],
+      "haveLineContaining": ["*.tgz"],
       "target": ".gitignore"
     }
   ]
