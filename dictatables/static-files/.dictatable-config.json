@@ -2,6 +2,10 @@
   "message": "Copy react-boilerplate",
   "actions": [
     {
+      "beSupersetOfJsonFile": "react-boilerplate/package.json",
+      "target": "package.json"
+    },
+    {
       "copyFrom": "react-boilerplate",
       "target": "."
     }
